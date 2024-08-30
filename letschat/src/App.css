@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .App{
+    min-height: 100vh;
+    width:1440px;
+    display: flex;
+    background-image: url('./background.jpg'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+ .main-body-wrapper{
+    display: flex;
+    /* padding:  20px ; */
+    
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ }
+.left-content-wrapper{
+    min-height: 100vh;
+    /* width:1440px; */
+    flex: 60%;
+    display: flex;
+    background-image: url('./background.jpg'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.right-content-wrapper{
+    flex: 40%;
+    margin: 40px 0 ;
+    /* border-left: 1px solid rgb(224, 224, 224); */
+    box-shadow: -4px 0 4px -4px rgba(0, 0, 1, 0.2);
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .home{
+    min-height: 100vh;
+    width:1440px;
+    display: flex;
+    background-image: url('./background.jpg'); 
+    background-size: contain;
+    background-position: center;   
+    background-repeat: no-repeat;
+} */

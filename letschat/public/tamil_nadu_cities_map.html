@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2571b96136359384e1e4564c61faeeed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2571b96136359384e1e4564c61faeeed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2571b96136359384e1e4564c61faeeed = L.map(
+                "map_2571b96136359384e1e4564c61faeeed",
+                {
+                    center: [10.8505, 76.2711],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fa6fd667094d99767b1173301b00929b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+            var marker_a8fbb20cf3bc61b633a3c6e2d1e35f34 = L.marker(
+                [13.0827, 80.2707],
+                {}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+        var popup_9042861ba3beb167025a19aa9bbcf3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ffbf2e5bbfedb3f697c47773c9c9444 = $(`<div id="html_6ffbf2e5bbfedb3f697c47773c9c9444" style="width: 100.0%; height: 100.0%;">Chennai</div>`)[0];
+            popup_9042861ba3beb167025a19aa9bbcf3b3.setContent(html_6ffbf2e5bbfedb3f697c47773c9c9444);
+        
+
+        marker_a8fbb20cf3bc61b633a3c6e2d1e35f34.bindPopup(popup_9042861ba3beb167025a19aa9bbcf3b3)
+        ;
+
+        
+    
+    
+            var marker_2cb19ef442a0f1c6763e959c1913a354 = L.marker(
+                [11.6643, 78.146],
+                {}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+        var popup_12ede2ce06718156676b200e84b75d79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd24067b9d0aa2f7a05cb7b4c2f703bc = $(`<div id="html_cd24067b9d0aa2f7a05cb7b4c2f703bc" style="width: 100.0%; height: 100.0%;">Salem</div>`)[0];
+            popup_12ede2ce06718156676b200e84b75d79.setContent(html_cd24067b9d0aa2f7a05cb7b4c2f703bc);
+        
+
+        marker_2cb19ef442a0f1c6763e959c1913a354.bindPopup(popup_12ede2ce06718156676b200e84b75d79)
+        ;
+
+        
+    
+    
+            var marker_8f62d40f83af1b7a39e62662d01d4a01 = L.marker(
+                [11.0168, 76.9558],
+                {}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+        var popup_aacb6aa7d2d6501bdfbccc7f3cc1be97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff0b14323a76ed25cde63880bfa7ee05 = $(`<div id="html_ff0b14323a76ed25cde63880bfa7ee05" style="width: 100.0%; height: 100.0%;">Coimbatore</div>`)[0];
+            popup_aacb6aa7d2d6501bdfbccc7f3cc1be97.setContent(html_ff0b14323a76ed25cde63880bfa7ee05);
+        
+
+        marker_8f62d40f83af1b7a39e62662d01d4a01.bindPopup(popup_aacb6aa7d2d6501bdfbccc7f3cc1be97)
+        ;
+
+        
+    
+    
+            var marker_08279da16103b96fefbae3d3dc95f191 = L.marker(
+                [8.7139, 77.7567],
+                {}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+        var popup_38e40ffa48824abc8e5f3e1c8627515a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23185dc031bb9a860b29c5b4b0cc9c47 = $(`<div id="html_23185dc031bb9a860b29c5b4b0cc9c47" style="width: 100.0%; height: 100.0%;">Tirunelveli</div>`)[0];
+            popup_38e40ffa48824abc8e5f3e1c8627515a.setContent(html_23185dc031bb9a860b29c5b4b0cc9c47);
+        
+
+        marker_08279da16103b96fefbae3d3dc95f191.bindPopup(popup_38e40ffa48824abc8e5f3e1c8627515a)
+        ;
+
+        
+    
+    
+            var marker_840a2ba368e2667375ffbf09e931d5d7 = L.marker(
+                [9.9252, 78.1198],
+                {}
+            ).addTo(map_2571b96136359384e1e4564c61faeeed);
+        
+    
+        var popup_fd24cbc26e7c698f7b894d4bfa25e09f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae841aa9883456d5d1be5d8014478395 = $(`<div id="html_ae841aa9883456d5d1be5d8014478395" style="width: 100.0%; height: 100.0%;">Madurai</div>`)[0];
+            popup_fd24cbc26e7c698f7b894d4bfa25e09f.setContent(html_ae841aa9883456d5d1be5d8014478395);
+        
+
+        marker_840a2ba368e2667375ffbf09e931d5d7.bindPopup(popup_fd24cbc26e7c698f7b894d4bfa25e09f)
+        ;
+
+        
+    
+</script>
+</html>
